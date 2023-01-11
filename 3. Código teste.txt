@@ -1,0 +1,8 @@
+public class ListaDeCompras {
+    public static void main(String args[]){
+      int limao,uvasPassas,morango;
+      limao=20;
+      uvasPassas=25;
+      morango=limao+uvasPassas;
+      System.out.println("valor de morango"+morango);
+    } }

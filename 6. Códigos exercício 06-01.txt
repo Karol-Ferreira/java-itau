@@ -1,0 +1,87 @@
+
+import java.util.Scanner;
+public class Questao1 {
+  public static void main(String args[]) {
+    Scanner teclado = new Scanner(System.in);
+    int numero, r1, r2, r3;
+    System.out.println("Digite um numero de três algarismos:");
+    numero=teclado.nextInt();
+    r1 = numero % 10;
+    r2 = numero / 10;
+    r2 = r2 % 10;
+    r3 = numero / 100;
+    System.out.println("" + r1 + r2 + r3);
+  }
+}
+
+02: A)
+import java.util.Scanner; 
+public class AreaDoQuadrado {
+    public static void main (String args[]) {
+        Scanner teclado=new Scanner(System.in);
+        double ladoDoQuadrado,areaDoQuadrado;
+        System.out.println("Digite a medida do lado do quadrado");
+        ladoDoQuadrado=teclado.nextDouble();
+        areaDoQuadrado=(ladoDoQuadrado*ladoDoQuadrado);
+        System.out.println("Área do quadrado"+areaDoQuadrado);}}
+
+B)
+import java.util.Scanner; 
+public class AreaDoQuadrado {
+    public static void main (String args[]) {
+        Scanner teclado=new Scanner(System.in);
+        double baseDoRetangulo,auturaDoRetangulo,areaDoRetangulo;
+        System.out.println("Digite a medida da autura do retângulo");
+        auturaDoRetangulo=teclado.nextDouble();
+        System.out.println("Digite a medida da base do retângulo");
+        baseDoRetangulo=teclado.nextDouble();
+        areaDoRetangulo=(baseDoRetangulo*auturaDoRetangulo);
+        System.out.println("Área do retângulo"+areaDoRetangulo);}}
+
+C)
+import java.util.Scanner; 
+public class AreaDoTriangulo {
+    public static void main (String args[]) {
+        Scanner teclado=new Scanner(System.in);
+        double baseDoTriangulo,auturaDoTriangulo,areaDoTriangulo;
+        System.out.println("Digite a medida da autura do triângulo");
+        auturaDoTriangulo=teclado.nextDouble();
+        System.out.println("Digite a medida da base do triângulo");
+        baseDoTriangulo=teclado.nextDouble();
+        areaDoTriangulo=(baseDoTriangulo*auturaDoTriangulo/2);
+        System.out.println("Área do triângulo"+areaDoTriangulo);}}
+
+03:
+import java.util.Scanner; 
+public class Questao3 {
+    public static void main (String args[]) {
+        Scanner teclado=new Scanner(System.in);
+        int salario,umKw,kwGastos,valorAPagar,valorComDisconto;
+        System.out.println("Digite o valor do salário mínimo");
+        salario=teclado.nextInt();
+        umKw=salario/700;
+        System.out.println("O valor de cada KW consumido é"+umKw);
+        System.out.println("Digite a quantidade de KW gastos");
+        kwGastos=teclado.nextDouble();
+        valorAPagar=umKw*kwGastos;
+        System.out.println("O valor a ser pago é"+valorAPagar);
+        valorComDisconto=kwGastos-10*kwGastos/100;
+        System.out.println("Com disconto, o valor a ser pago é"+valorComDisconto);
+    }
+    }
+
+
+import java.util.Scanner; 
+public class Questao5 {
+    public static void main (String args[]) {
+        Scanner teclado=new Scanner(System.in);
+double velocidadeMedia,tempo,distancia,litrosGastos;
+        System.out.println("Digite a velocidade média da viagem em KM/H");
+velocidadeMedia=teclado.nextDouble();
+        System.out.println("Digite o tempo gasto na viagem em horas");
+tempo=teclado.nextDouble();
+distancia=velocidadeMedia*tempo;
+litrosGastos=distancia/12;
+        System.out.println("Foram gastos nessa viagem "+litrosGastos+" litros de gasolina.");
+}
+}

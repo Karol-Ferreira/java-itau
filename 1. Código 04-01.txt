@@ -1,0 +1,5 @@
+Primeiro Código:
+public class MyClass{
+public static void main    (String args[]    )
+{
+    System.out.print ("Ufa! Meu primeiro programa feito em java"           );}

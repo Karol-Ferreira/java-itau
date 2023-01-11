@@ -1,0 +1,37 @@
+import java.util.Scanner; 
+public class Leitura {
+    public static void main (String args[]) {
+        Scanner teclado=new Scanner(System.in);
+        double quantidadeHora,valorHora,salarioBruto,porcentagemInss,salarioLiquido;
+        System.out.println("Digite a quantidade de horas trabalhadas");
+        quantidadeHora=teclado.nextDouble();
+        System.out.println("Digite o valor da hora");
+        valorHora=teclado.nextDouble();
+        salarioBruto=(quantidadeHora*valorHora);
+        System.out.println("Valor do salário bruto"+salarioBruto);
+        System.out.println("Digite a porcentagem do salário a ser discontada pelo INSS.");
+porcentagemInss=teclado.nextDouble();
+salarioLiquido=salarioBruto-(salarioBruto*porcentagemInss);
+        System.out.println("Valor do salário liquido"+salarioLiquido);
+    }}
+
+ou acrescentando /100
+
+import java.util.Scanner; 
+public class Leitura {
+    public static void main (String args[]) {
+        Scanner teclado=new Scanner(System.in);
+        double quantidadeHora,valorHora,salarioBruto,porcentagemInss,salarioLiquido;
+        System.out.println("Digite a quantidade de horas trabalhadas");
+        quantidadeHora=teclado.nextDouble();
+        System.out.println("Digite o valor da hora");
+        valorHora=teclado.nextDouble();
+        salarioBruto=(quantidadeHora*valorHora);
+        System.out.println("Valor do salário bruto"+salarioBruto);
+        System.out.println("Digite a porcentagem do salário a ser discontada pelo INSS.");
+porcentagemInss=teclado.nextDouble()/100;
+salarioLiquido=salarioBruto-(salarioBruto*porcentagemInss);
+        System.out.println("Valor do salário liquido"+salarioLiquido);
+    }}
+
+Obs: marcar a caixa de seleção interactive antes de executar.

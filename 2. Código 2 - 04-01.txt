@@ -1,0 +1,20 @@
+Código 2:
+public class Continhas {
+    public static void main(String args[]) {
+        int a,b,c; 
+        a=27;
+        b=4;
+        c=a+b;
+        System.out.println("valor do c:"+c);
+c=a-b;
+System.out.println("valor do c:"+c);
+c=a*b;
+System.out.println("valor do c:"+c);
+c=a/b;
+System.out.println("valor do c:"+c);
+c=a%b;
+System.out.println("valor do c:"+c);
+                                                                                }}
+
+% é o símbolo que se usa pra caucular o resto de um cáuculo.
+obs: c é operador de soma. Dentro do print ele serve como concatenação. Ele junta a letra com número.
